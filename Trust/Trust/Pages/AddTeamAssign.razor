@@ -1,0 +1,73 @@
+﻿@page "/addTeamAssign"
+@inject ITeamAssignService TeamAssignService
+@inject IUserService UserService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<h3>
+    Add TeamAssign
+</h3>
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="UserId" class="control-label">UserId</label>
+                <input for="UserId" class="form-control"
+                       @bind="@teamAssign.UserId" onfocus="this.value=''" />
+            </div>
+            </div>
+        </div>
+            
+            
+            
+            <div class="form-group">
+                <label for="UserId" class="control-label">
+                    User
+                </label>
+                <select for="User" class="form-control"
+                        @bind="@teamAssign.UserId">
+                    <option value=0 selected>[Select User]</option>
+                    @foreach (var user in users)
+                    {
+                        <option value="@user.UserId">
+                            @user.UserName
+                        </option>
+                    }
+                </select>
+            </div>
+          
+       
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <button type="button" class="btn btn-primary"
+                        @onclick="() => CreateTeamAssign()">
+                    Save
+                </button>
+                <button type="button" class="btn btn-warning"
+                        @onclick="() => cancel()">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+@code {
+    TeamAssign teamAssign = new TeamAssign();
+    List<User> users = new List<User>();
+    protected override async Task OnInitializedAsync()
+    {
+        //book.ISBN = 1234567890123;
+        //book.PubYear = (short)DateTime.Now.Year;
+        //book.PurchDate = DateTime.Now;
+        users = await UserService.FetchAll();
+    }
+    protected async Task CreateTeamAssign()
+    {
+        await TeamAssignService.Create(teamAssign);
+        navigationManager.NavigateTo("/TeamAssignlist");
+    }
+    void cancel()
+    {
+        navigationManager.NavigateTo("/TeamAssignlist");
+    }
+}

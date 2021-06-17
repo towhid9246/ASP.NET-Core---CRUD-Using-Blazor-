@@ -1,0 +1,272 @@
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.exe
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.deps.json
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.runtimeconfig.json
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.runtimeconfig.dev.json
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.Views.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.Views.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csprojAssemblyReference.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.AssemblyInfoInputs.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.AssemblyInfo.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csproj.CoreCompileInputs.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorComponent.input.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorComponent.output.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Trust.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.TagHelpers.input.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.TagHelpers.output.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorCoreGenerate.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorAssemblyInfo.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\staticwebassets\Trust.StaticWebAssets.Manifest.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\staticwebassets\Trust.StaticWebAssets.xml
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\scopedcss\bundle\Trust.styles.css
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorTargetAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorTargetAssemblyInfo.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.Views.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.genruntimeconfig.cache
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csproj.CopyComplete
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListUser.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListProject.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\FetchTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\trust\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.exe
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.deps.json
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.runtimeconfig.json
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.runtimeconfig.dev.json
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.Views.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Trust.Views.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csprojAssemblyReference.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.AssemblyInfoInputs.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.AssemblyInfo.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csproj.CoreCompileInputs.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorComponent.input.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EditUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ListUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorComponent.output.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\RazorDeclaration\Trust.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.TagHelpers.input.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.TagHelpers.output.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorCoreGenerate.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\AddUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\EditUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\FetchTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListProject.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListProjectsDetails.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListStatus.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListTeam.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListTeamAssign.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\ListUser.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorAssemblyInfo.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\staticwebassets\Trust.StaticWebAssets.Manifest.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\staticwebassets\Trust.StaticWebAssets.xml
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\scopedcss\bundle\Trust.styles.css
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorTargetAssemblyInfo.cache
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.RazorTargetAssemblyInfo.cs
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.Views.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.csproj.CopyComplete
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.dll
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.pdb
+C:\Users\TOWHID\Desktop\Blazor Project Final\Trust\Trust\obj\Debug\netcoreapp3.1\Trust.genruntimeconfig.cache

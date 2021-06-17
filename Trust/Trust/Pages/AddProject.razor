@@ -1,0 +1,272 @@
+﻿@page "/addProject"
+@inject IProjectService ProjectService
+@inject ITeamService TeamService
+@inject IProjectStatusService ProjectStatusService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<h3>
+    Add Project
+</h3>
+<form>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            @*<tr>
+                <td>
+                    <label for="ProjectId" class="control-label">ProjectId</label>
+                </td>
+                <td>
+                    <input for="ProjectId" class="form-control"
+                           @bind="@project.ProjectId" />
+                </td>
+            </tr>*@
+            <tr>
+                <td>
+                    <label for="ProjectName" class="control-label">
+                        ProjectName
+                    </label>
+                </td>
+                <td>
+                    <input for="ProjecName" class="form-control"
+                           @bind="@project.ProjectName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectDesc" class="control-label">
+                        ProjectDesc
+                    </label>
+                </td>
+                <td>
+                    <input for="ProjecDesc" class="form-control"
+                           @bind="@project.ProjectDesc" />
+                </td>
+            </tr>
+            @if (@hasAdded)
+            {
+        <tr>
+            <td>
+                @*<label for="Status" class="control-label">
+                    Status
+                </label>*@
+            </td>
+            <td>
+                <label style="width: 90px;">
+                    @*<u><i><b>Sequence</b></i></u>*@
+                </label>
+                @*<label><u><i><b>Full Name</b></i></u></label><br />*@
+                @foreach (var projectStatusName in projectStatusNames)
+                {
+                    @*<input type="number"
+                               @bind="@projectStatusName.StatusOrd"
+                               @bind:event="oninput"
+                               style="width: 75px;" min="0" max="5" />
+                        @if (@projectStatusName.ProjectId > 0)
+                        {
+
+
+                            <input name="AreChecked" type="checkbox"
+                                   value="@projectStatusName.StatusId" checked
+                                   @onchange="eventArgs => { CheckChanged
+            (projectStatusName, eventArgs.Value);}" />
+                        }
+                        else
+                        {
+                            <input name="AreChecked" type="checkbox"
+                                   value="@projectStatusName.StatusId"
+                                   @onchange="eventArgs => { CheckChanged
+            (projectStatusName, eventArgs.Value);}" />*@
+                }
+
+                
+                
+                    <label for="StatusName" style="width: 150px;">
+                        @projectStatusName.StatusName
+                    </label><br />
+            <td>
+                <select for="Status" class="form-control"
+                        @bind="@projectStatusName.StatusName">
+                    <option value=0>[Select Status]</option>
+                   
+
+
+                    @foreach (var projectStatusName in projectStatusNames)
+                    {
+                        <option value="@projectStatusName.StatusName">
+                            @projectStatusName.StatusName
+                        </option>
+                    }
+                </select>
+            </td>
+            
+            </td>
+            <td>
+                &#8194;
+                <a class="btn btn-primary"
+                   href='/addStatus/@project.ProjectId'>
+                    &#8194;Add Status&#8194;
+                </a><br />
+            </td>
+        </tr>
+            }
+
+            <tr>
+                <td>
+                    <label for="ProjectStart" class="control-label">
+                        ProjectStart
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectStart" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectEnd" class="control-label">
+                        ProjectEnd
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectEnd" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectDeadline" class="control-label">
+                        ProjectDeadline
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectDeadline" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @*<label for="Status" class="control-label">
+                        Status
+                    </label>*@
+                </td>
+                <td>
+                        @*<select for="Status" class="form-control"
+                                @bind="@projectStatusName.StatusId">
+                            <option value=0>[Select Status]</option>
+                            @foreach (var projectStatusName in projectStatusNames)
+                            {
+                                <option value="@projectStatusName.StatusId">
+                                    @projectStatusName.StatusId
+                                </option>
+                            }
+                        </select>*@
+                    </td>
+                <td>
+                    &#8194;
+                    <a class="btn btn-primary"
+                       href='/addStatus/@projectStatusName.StatusId'>Add status</a>
+                </td>
+
+            </tr>
+
+
+
+
+
+
+            <tr>
+                <td>
+                    <label for="Team" class="control-label">
+                        Team
+                    </label>
+                </td>
+                <td>
+                    <select for="Team" class="form-control"
+                            @bind="@project.TeaId">
+                        <option value=0>[Select Team]</option>
+                        @foreach (var team in teams)
+                        {
+                            <option value="@team.TeamId">
+                                @team.TeamName
+                            </option>
+                        }
+                    </select>
+                </td>
+                <td>
+                    &#8194;
+                    <a class="btn btn-primary"
+                       href='/addTeam/@project.ProjectId'>Add team</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br />
+                    <button type="button" class="btn btn-primary"
+                            @onclick="() => CreateProject()">
+                        &#8195;Save&#8195;
+                    </button>&#8194;
+                    <button type="button" class="btn btn-warning"
+                            @onclick="() => Cancel()">
+                        &#8194;&#8201;Cancel&#8201;&#8194;
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+@code {
+    Project project = new Project();
+    ProjectStatusName projectStatusName = new ProjectStatusName();
+    List<Team> teams = new List<Team>();
+    List<ProjectStatusName> projectStatusNames = new List<ProjectStatusName>();
+    List<Project> projects = new List<Project>();
+    bool hasAdded = false;
+    protected override async Task OnInitializedAsync()
+    {
+        //book.PubYear = (short)DateTime.Now.Year;
+        project.ProjectStart = DateTime.Now;
+        project.ProjectEnd = DateTime.Now;
+        project.ProjectDeadline = DateTime.Now;
+        teams = await TeamService.FetchAll();
+    }
+    protected async Task CreateProject()
+    {
+        if (hasAdded)
+        {
+            navigationManager.NavigateTo("/listProject");
+        }
+        else
+        {
+            await ProjectService.Create(project);
+            projectStatusNames = await ProjectStatusService.FetchAll(0);
+            hasAdded = !hasAdded;
+        }
+    }
+    protected async Task CheckChanged(ProjectStatusName projectStatusName,
+                                      object checkValue)
+    {
+        int ProjectId = 0;
+        if (project.ProjectId > ProjectId)
+        {
+            ProjectId = (int)project.ProjectId;
+            projectStatusNames = await ProjectStatusService.FetchAll(ProjectId);
+            if ((bool)checkValue)
+            {
+                // insert
+                projectStatusName.ProjectId = ProjectId;
+                await ProjectStatusService.Create(projectStatusName);
+            }
+            else
+            {
+                //delete
+                projectStatusName.StatusId = 0;
+                await ProjectStatusService.Delete
+                      (ProjectId, projectStatusName.StatusId);
+            }
+            projectStatusNames = await ProjectStatusService.FetchAll(ProjectId);
+        }
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("/listProject");
+    }
+}

@@ -1,0 +1,78 @@
+﻿@page "/addProjectsDetails"
+@inject IProjectsDetailsService ProjectsDetailsService
+@*@inject IProjectService ProjectService*@
+@inject IStatusService StatusService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<h3>
+    Add ProjectsDetails
+</h3>
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="Comments" class="control-label">Comments</label>
+                <input for="Comments" class="form-control"
+                       @bind="@projectsDetails.Comments" onfocus="this.value=''" />
+            </div>
+
+
+            <div class="form-group">
+                <label for="Date" class="control-label">
+                    Date
+                </label>
+                <input type="date" class="form-control"
+                       @bind="@projectsDetails.ProjectDate" onfocus="this.value=''" />
+            </div>
+            <div class="form-group">
+                <label for="Status" class="control-label">
+                    Status
+                </label>
+                <select for="StatusId" class="form-control"
+                        @bind="@projectsDetails.StaId">
+                    <option value=0 selected>[Select Status]</option>
+                    @foreach (var status in statuss)
+                    {
+                        <option value="@status.StatusId">
+                            @status.StatusId
+                        </option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <button type="button" class="btn btn-primary"
+                        @onclick="() => CreateProjectsDetails()">
+                    &#8195;Save&#8195;
+                </button>&#8194;
+                <button type="button" class="btn btn-warning"
+                        @onclick="() => cancel()">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+@code {
+    ProjectsDetails projectsDetails = new ProjectsDetails();
+            List<Status> statuss = new List<Status>();
+            protected override async Task OnInitializedAsync()
+            {
+                //ProjectsDetails.DetailsId = 1234567890123;
+
+                projectsDetails.ProjectDate = DateTime.Now;
+                statuss = await StatusService.FetchAll();
+            }
+            protected async Task CreateProjectsDetails()
+            {
+                await ProjectsDetailsService.Create(projectsDetails);
+                navigationManager.NavigateTo("/listProjectsDetails");
+            }
+            void cancel()
+            {
+                navigationManager.NavigateTo("/listProjectsDetails");
+            }
+        }
+

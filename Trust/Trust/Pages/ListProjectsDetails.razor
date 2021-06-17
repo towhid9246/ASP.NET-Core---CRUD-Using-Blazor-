@@ -1,0 +1,309 @@
+﻿@page "/listProjectsDetails"
+@inject IProjectsDetailsService ProjectsDetailsService
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+    .sort-th {
+        cursor: pointer;
+    }
+
+    .fa {
+        float: right;
+    }
+
+    .btn-custom {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 2px solid #000;
+        margin: 0px 5px 0px 5px;
+    }
+</style>
+<a class="btn btn-primary" href='/addProjectsDetails'>Add new ProjectsDeatils</a>
+@if (projectsDetailss == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row col-md-3 pull-right">
+        <input type="text" id="txtSearch"
+               placeholder="Search Titles..." class="form-control"
+               @bind="SearchTerm" @bind:event="oninput" />
+    </div>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                @*<th class="sort-th"
+                    @onclick="@(() => SortTable("ISBN"))">
+                    I S B N
+                    <span class="fa @(SetSortIcon("ISBN"))"></span>
+                </th>*@
+                <th class="sort-th"
+                    @onclick="@(() => SortTable("DetailsId"))">
+                    DetailsId
+                    <span class="fa @(SetSortIcon("DetailsId"))"></span>
+                </th>
+                <th class="sort-th"
+                    @onclick="@(() => SortTable("Comments"))">
+                    Comments
+                    <span class="fa @(SetSortIcon("Comments"))"></span>
+                </th>
+                @*<th class="sort-th"
+                    @onclick="@(() => SortTable("PubYear"))">
+                    Pub.<br />
+                    Year
+                    <span class="fa @(SetSortIcon("PubYear"))"></span>
+                </th>*@
+                <th class="sort-th"
+                    @onclick="@(() => SortTable("ProjectDate"))">
+                    ProjectDate<br />Date
+                    <span class="fa @(SetSortIcon("ProjectDate"))"></span>
+                </th>
+                <th class="sort-th"
+                    @onclick="@(() => SortTable("StaName"))">
+                    Status
+                    <span class="fa @(SetSortIcon("StaName"))"></span>
+                </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (projectsDetailss == null || projectsDetailss.Count == 0)
+            {
+                <tr>
+                    <td colspan="3">
+                        No Records to display
+                    </td>
+                </tr>
+            }
+            else
+            {
+                int prevDetailsId = 0;
+                foreach (var projectsDetails in projectsDetailss)
+                {
+                    if (projectsDetails.DetailsId != prevDetailsId)
+                    {
+                        <tr>
+                            <td>
+                                <hr style="padding:0px; margin:0px;">
+                                @projectsDetails.DetailsId
+                            </td>
+                            <td>
+                                <hr style="padding:0px; margin:0px;">
+                                @projectsDetails.Comments
+                            </td>
+                            @*<td>
+                                <hr style="padding:0px; margin:0px;">
+                                @book.AuthorId
+                            </td>*@
+                            @*<td>
+                                <hr style="padding:0px; margin:0px;">
+                                @book.PubYear
+                            </td>*@
+                            <td>
+                                <hr style="padding:0px;  margin:0px;">
+                                @projectsDetails.ProjectDate.ToShortDateString()
+                            </td>
+                            <td>
+                                <hr style="padding:0px; margin:0px;">
+                                @projectsDetails.StaId
+                            </td>
+                            <td>
+                                <hr style="padding:0px; margin:0px;">
+                                <a class="btn btn-primary"
+                                   href='/editProjectsDetails/@projectsDetails.DetailsId'>
+                                    &#8194;Edit&#8194;
+                                </a>&#8194;
+                                <a class="btn btn-danger" @onclick="() =>
+                           DeleteProjectsDetails((int)projectsDetails.DetailsId)">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @*<tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <hr style="padding:0px; margin:0px;">
+                                @book.AuthorId
+                            </td>
+                        </tr>*@
+                    }
+                    prevDetailsId = (int)projectsDetails.DetailsId;
+                }
+            }
+        </tbody>
+    </table>
+    <div class="pagination">
+        <button class="btn btn-custom" @onclick=@(async ()=>
+              await NavigateToPage("previous"))>
+            ◀
+        </button>
+        @for (int i = startPage; i <= endPage; i++)
+        {
+            var currentPage = i;
+            <button class="btn btn-custom pagebutton
+                 @(currentPage==curPage?"btn-info":"")"
+                    @onclick=@(async () =>
+                 await refreshRecords(currentPage))>
+                @currentPage
+            </button>
+        }
+        <button class="btn btn-custom" @onclick=@(async ()=>
+              await NavigateToPage("next"))>
+            ▶
+        </button>
+    </div>
+}
+@code {
+    private string searchTerm;
+    private string SearchTerm
+    {
+        get { return searchTerm; }
+        set { searchTerm = value; FilterRecords(); }
+    }
+    List<ProjectsDetailsSta> projectsDetailss;
+    #region Pagination
+    int totalPages;
+    int totalRecords;
+    int curPage;
+    int pagerSize;
+    int pageSize;
+    int startPage;
+    int endPage;
+    string sortColumnName = "DetailsId";
+    string sortDir = "DESC";
+    #endregion
+    protected override async Task OnInitializedAsync()
+    {
+        //display total page buttons
+        pagerSize = 3;
+        pageSize = 8;
+        curPage = 1;
+        projectsDetailss = await ProjectsDetailsService.ListAll((curPage - 1) * pageSize,
+            pageSize, sortColumnName, sortDir, searchTerm);
+        totalRecords = await ProjectsDetailsService.Count(searchTerm);
+        totalPages = (int)Math.Ceiling
+                     (totalRecords / (decimal)pageSize);
+        SetPagerSize("forward");
+    }
+    protected async Task DeleteProjectsDetails(int DetailsId)
+    {
+        await ProjectsDetailsService.Delete(DetailsId);
+        projectsDetailss = await ProjectsDetailsService.ListAll((curPage - 1) * pageSize,
+            pageSize, sortColumnName, sortDir, searchTerm);
+    }
+    private bool isSortedAscending;
+    private string activeSortColumn;
+    private async Task<List<ProjectsDetailsSta>> SortRecords
+            (string columnName, string dir)
+    {
+        return await ProjectsDetailsService.ListAll((curPage - 1) * pageSize,
+               pageSize, columnName, dir, searchTerm);
+    }
+    private async Task SortTable(string columnName)
+    {
+        if (columnName != activeSortColumn)
+        {
+            projectsDetailss = await SortRecords(columnName, "ASC");
+            isSortedAscending = true;
+            activeSortColumn = columnName;
+        }
+        else
+        {
+            if (isSortedAscending)
+            {
+                projectsDetailss = await SortRecords(columnName, "DESC");
+            }
+            else
+            {
+                projectsDetailss = await SortRecords(columnName, "ASC");
+            }
+            isSortedAscending = !isSortedAscending;
+        }
+        sortColumnName = columnName;
+        sortDir = isSortedAscending ? "ASC" : "DESC";
+    }
+    private string SetSortIcon(string columnName)
+    {
+        if (activeSortColumn != columnName)
+        {
+            return string.Empty;
+        }
+        if (isSortedAscending)
+        {
+            return "fa-sort-up";
+        }
+        else
+        {
+            return "fa-sort-down";
+        }
+    }
+    public async Task refreshRecords(int currentPage)
+    {
+        projectsDetailss = await ProjectsDetailsService.ListAll((currentPage - 1)
+       * pageSize, pageSize, sortColumnName, sortDir, searchTerm);
+        curPage = currentPage;
+        this.StateHasChanged();
+    }
+    public void SetPagerSize(string direction)
+    {
+        if (direction == "forward" && endPage < totalPages)
+        {
+            startPage = endPage + 1;
+            if (endPage + pagerSize < totalPages)
+            {
+                endPage = startPage + pagerSize - 1;
+            }
+            else
+            {
+                endPage = totalPages;
+            }
+            this.StateHasChanged();
+        }
+        else if (direction == "back" && startPage > 1)
+        {
+            endPage = startPage - 1;
+            startPage = startPage - pagerSize;
+        }
+        else
+        {
+            startPage = 1;
+            endPage = totalPages;
+        }
+    }
+    public async Task NavigateToPage(string direction)
+    {
+        if (direction == "next")
+        {
+            if (curPage < totalPages)
+            {
+                if (curPage == endPage)
+                {
+                    SetPagerSize("forward");
+                }
+                curPage += 1;
+            }
+        }
+        else if (direction == "previous")
+        {
+            if (curPage > 1)
+            {
+                if (curPage == startPage)
+                {
+                    SetPagerSize("back");
+                }
+                curPage -= 1;
+            }
+        }
+        await refreshRecords(curPage);
+    }
+    public void FilterRecords()
+    {
+        endPage = 0;
+        this.OnInitializedAsync().Wait();
+    }
+}

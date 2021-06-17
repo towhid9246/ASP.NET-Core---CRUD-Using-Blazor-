@@ -1,0 +1,246 @@
+﻿@*@page "/editProject/{ProjectId:int}"
+@inject IProjectService ProjectService
+@inject ITeamService TeamService
+@inject IProjectStatusService ProjectStatusService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<h2>
+    Edit Project
+</h2>
+<form>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <label for="ProjectId" class="control-label">
+                        ProjectId
+                    </label>
+                </td>
+                <td>
+                    <input for="ProjectId" class="form-control"
+                           @bind="@project.ProjectId" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectName" class="control-label">
+                        Project Name
+                    </label>
+                </td>
+                <td>
+                    <input for="ProjectName" class="form-control"
+                           @bind="@project.ProjectName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectDesc" class="control-label">
+                        ProjectDesc
+                    </label>
+                </td>
+                <td>
+                    <input for="ProjectDesc" class="form-control"
+                           @bind="@project.ProjectDesc" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Status" class="control-label">
+                        Status
+                    </label>
+                </td>
+                <td>
+                    <label style="width: 95px;">
+                        <u><i><b>Sequence</b></i></u>
+                    </label>
+                    <label><u><i><b>Full Name</b></i></u></label><br />
+                    @foreach (var projectStatusName in projectStatusNames)
+                    {-->
+                        <input type="number"
+                       @bind="@projectStatusName.StatusOrd"
+                       @bind:event="oninput"
+                       style="width: 75px;" min="0" max="5" />
+                @if (@projectStatusName.ProjectId > 0)
+                {
+                    <input name="AreChecked" type="checkbox"
+                           value="@projectStatusName.StatusId" checked
+                           @onchange="eventArgs => { CheckChanged
+                (projectStatusName, eventArgs.Value);}" />
+                }
+                else
+                {
+                    <input name="AreChecked" type="checkbox"
+                           value="@projectStatusName.StatusId"
+                           @onchange="eventArgs => { CheckChanged
+                (projectStatusName, eventArgs.Value);}" />
+                }
+                <label for="StatusName" style="width: 150px;">
+                    @projectStatusName.StatusName
+                </label><br />
+                    }
+                </td>
+
+
+                @foreach (var projectStatusName in projectStatusNames)
+                {
+                    <input type="number"
+                               @bind="@projectStatusName.StatusOrd"
+                               @bind:event="oninput"
+                               style="width: 75px;" min="0" max="5" />
+                        @if (@projectStatusName.ProjectId > 0)
+                        {
+
+
+                            <input name="AreChecked" type="checkbox"
+                                   value="@projectStatusName.StatusId" checked
+                                   @onchange="eventArgs => { CheckChanged
+            (projectStatusName, eventArgs.Value);}" />
+                        }
+                        else
+                        {
+                            <input name="AreChecked" type="checkbox"
+                                   value="@projectStatusName.StatusId"
+                                   @onchange="eventArgs => { CheckChanged
+            (projectStatusName, eventArgs.Value);}" />
+                }
+                <label for="StatusName" style="width: 150px;">
+                    @projectStatusName.StatusName
+                </label>
+                
+                
+                <td>
+                    <select for="Status" class="form-control"
+                            @bind="@projectStatusName.StatusId">
+                        <option value=0>[Select Status]</option>
+                        @foreach (var projectStatusName in projectStatusNames)
+                        {
+                            <option value="@projectStatusName.StatusId">
+                                @projectStatusName.StatusId
+                            </option>
+                        }
+                    </select>
+                </td>
+
+                
+                <td>
+                    
+                    <a class="btn btn-primary"
+                       href='/addStatus/@project.ProjectId'>
+                        &#8194;Add Status&#8194;
+                    </a><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectStart" class="control-label">
+                        ProjectStart
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectStart" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectEnd" class="control-label">
+                        ProjectEnd
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectEnd" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProjectDeadline" class="control-label">
+                        ProjectDeadline
+                    </label>
+                </td>
+                <td>
+                    <input type="date" class="form-control"
+                           @bind="@project.ProjectDeadline" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Teams" class="control-label">
+                        Teams
+                    </label>
+                </td>
+                <td>
+                    <select for="Teams" class="form-control"
+                            @bind="@project.TeaId">
+                        <option value=0>[Select Teams]</option>
+                        @foreach (var team in teams)
+                        {
+                            <option value="@team.TeamId">
+                                @team.TeamId
+                            </option>
+                        }
+                    </select>
+                </td>
+                <td>
+                    &#8201;
+                    <a class="btn btn-primary"
+                       href='/addTeams/@project.ProjectId'>Add team</a>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br />
+                    <button type="button" class="btn btn-primary"
+                            @onclick="() => UpdateProject()">
+                        &#8195;Save&#8195;
+                    </button>&#8194;
+                    <button type="button" class="btn btn-warning"
+                            @onclick="() => Cancel()">
+                        &#8194;&#8201;Cancel&#8201;&#8194;
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+@code  {
+    [Parameter] public int ProjectId { get; set; }
+    Project project = new Project();
+    ProjectStatusName projectStatusName = new ProjectStatusName();
+    List<Team> teams = new List<Team>();
+    List<ProjectStatusName> projectStatusNames = new List<ProjectStatusName>();
+    protected override async Task OnInitializedAsync()
+    {
+        project = await ProjectService.GetById(ProjectId);
+        projectStatusNames = await ProjectStatusService.FetchAll(ProjectId);
+        teams = await TeamService.FetchAll();
+    }
+    protected async Task CheckChanged(ProjectStatusName projectStatusName,
+                                      object checkValue)
+    {
+        if ((bool)checkValue)
+        {
+            // insert
+            projectStatusName.ProjectId = ProjectId;
+            await ProjectStatusService.Create(projectStatusName);
+        }
+        else
+        {
+            // delete
+            projectStatusName.StatusOrd = null;
+            await ProjectStatusService.Delete
+                  (ProjectId, projectStatusName.StatusId);
+        }
+        projectStatusNames = await ProjectStatusService.FetchAll(ProjectId);
+    }
+    protected async Task UpdateProject()
+    {
+        await ProjectService.Update(project, ProjectId);
+        navigationManager.NavigateTo("/listProject");
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("/listProject");
+    }
+}*@

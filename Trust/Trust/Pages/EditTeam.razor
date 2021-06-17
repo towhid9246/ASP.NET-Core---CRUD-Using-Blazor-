@@ -1,0 +1,77 @@
+﻿@page "/editTeam/{TeamId:int}"
+@inject ITeamService TeamService
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<h2>
+    Edit Author
+</h2>
+<form>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <label for="TeamName" class="control-label">
+                        TeamName
+                    </label>
+                </td>
+                <td>
+                    <input for="TeamName" class="form-control"
+                           @bind="@team.TeamName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="TeamDesc" class="control-label">
+                        TeamDesc
+                    </label>
+                </td>
+                <td>
+                    <input for="TeamDesc" class="form-control"
+                           @bind="@team.TeamDesc" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="TeamStatus" class="control-label">
+                        TeamStatus
+                    </label>
+                </td>
+                <td>
+                    <input for="TeamStatus" class="form-control"
+                           @bind="@team.TeamStatus" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br />
+                    <button type="button" class="btn btn-primary"
+                            @onclick="() => UpdateTeam()">
+                        &#8195;Save&#8195;
+                    </button>&#8194;
+                    <button type="button" class="btn btn-warning"
+                            @onclick="() => Cancel()">
+                        &#8194;&#8201;Cancel&#8201;&#8194;
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+@code  {
+    [Parameter]
+    public int TeamId { get; set; }
+    Team team= new Team();
+    protected override async Task OnInitializedAsync()
+    {
+        team = await TeamService.ReadByPk(TeamId);
+    }
+    protected async Task UpdateTeam()
+    {
+        await TeamService.Update(team);
+        navigationManager.NavigateTo("/listTeam");
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("/listTeam");
+    }
+}
